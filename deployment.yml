@@ -1,0 +1,9 @@
+Description: $Description
+FunctionName: $FunctionName
+
+Handler: "$SourceFile.$HandlerName"
+
+MemorySize: 128
+Publish: true
+Role: $Role
+Runtime: nodejs8.10
